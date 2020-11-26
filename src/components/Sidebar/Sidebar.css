@@ -1,0 +1,81 @@
+.Sidebar:not(.hr) {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 18.5rem;
+    padding: 3rem 0rem 8rem 0rem;
+    background-color: #f8f8f8f7;
+    font-weight: 500;
+
+}
+
+.logo {
+    align-self: center;
+    padding-bottom: 2rem;
+    height: 2rem;
+    width: 2rem;
+    object-fit: contain;
+    
+}
+
+a {
+    text-decoration: none !important;
+    color: black;
+    
+}
+
+.line-items {
+    align-items: flex-start;
+    margin-left: 3rem;
+}
+
+
+.line-item {
+    display: flex;
+    height: 2rem;
+    padding: 0rem 0rem 2rem 0rem ;
+    font-size: small;
+
+}
+
+.line-item > .MuiSvgIcon-root 	{
+    margin-right: 1rem;
+    font-size: large;
+    height: 16px;
+    color: #808080;
+}
+
+
+.user-card  {
+    border-radius: 15px;
+    display:flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    
+}
+.user-card > * {
+margin: 10px 10px 10px 10px;
+}
+
+.user-card > button {
+    background-color: #f7f7f7;
+    text-decoration: none;
+    border-style: none;
+    border-radius: 10px;
+    margin: 10px 30px 10px 30px;
+    display: block;
+    width: 100%;
+    }
+
+.hr {
+    background-color: #808080;
+    position:fixed;
+    height: 100vh;
+    width: 2px;
+    padding-top: 0;
+    margin-left: 18.5rem;
+}
