@@ -10,12 +10,12 @@ import { Avatar } from "@material-ui/core";
 function Sidebar() {
   return (
     <div className="Sidebar">
-      <div className="logo">
-        <img
-          src="https://www.freepnglogos.com/uploads/shopee-logo-png/shopee-logo-digital-economy-forum-mdcc-1.png"
-          alt=""
-        />
-      </div>
+      <img
+        className="logo"
+        src="https://www.freepnglogos.com/uploads/shopee-logo-png/shopee-logo-digital-economy-forum-mdcc-1.png"
+        alt=""
+      />
+
       <div className="line-items">
         <div className="line-item">
           <DashboardIcon />

@@ -1,45 +1,47 @@
-.Sidebar:not(.hr) {
+.Sidebar {
     display: flex;
     flex-direction: column;
     height: 100%;
-    width: 18.5rem;
-    padding: 3rem 0rem 8rem 0rem;
-    background-color: #f8f8f8f7;
+    width: 296px;
     font-weight: 500;
 
 }
 
 .logo {
     align-self: center;
-    padding-bottom: 2rem;
-    height: 2rem;
-    width: 2rem;
+    padding-bottom: 1rem;
+    height: 3.25rem;
+    width: auto;
     object-fit: contain;
+    margin-top: 3rem;
     
 }
 
 a {
     text-decoration: none !important;
     color: black;
-    
 }
 
 .line-items {
     align-items: flex-start;
-    margin-left: 3rem;
+    padding-left: 1rem;
 }
 
 
 .line-item {
     display: flex;
-    height: 2rem;
-    padding: 0rem 0rem 2rem 0rem ;
+    padding: 1rem 1rem ;
     font-size: small;
+    width:12.5rem;
 
+}
+.line-item:hover {
+    background-color: #ffca40;
+    border-radius: 15px;
 }
 
 .line-item > .MuiSvgIcon-root 	{
-    margin-right: 1rem;
+    margin-right: .75rem;
     font-size: large;
     height: 16px;
     color: #808080;
@@ -50,15 +52,27 @@ a {
     border-radius: 15px;
     display:flex;
     position: relative;
+    left: 50%;
+    transform: translateX(-50%);
     flex-direction: column;
     align-items: center;
     background-color: white;
     width: 200px;
     height: 200px;
-    
+    box-shadow: 0 40px 48px rgba(0,0,0,0.05), 0 10px 10px rgba(0,0,0,0.06);
+    margin-top: 90px;
 }
+
+.user-card > span:first-of-type {
+    font-weight: bolder ;
+}
+.user-card > span:nth-of-type(2) {
+    font-size: smaller ;
+}
+
+
 .user-card > * {
-margin: 10px 10px 10px 10px;
+margin: 10px 10px 1px 10px;
 }
 
 .user-card > button {
@@ -68,14 +82,17 @@ margin: 10px 10px 10px 10px;
     border-radius: 10px;
     margin: 10px 30px 10px 30px;
     display: block;
-    width: 100%;
+    width: 82.5%;
+    padding: 10px 0px;
+    font-weight: 800;
+    font-size: small;
     }
 
 .hr {
-    background-color: #808080;
+    background-color: #e9e9e9;
     position:fixed;
     height: 100vh;
-    width: 2px;
-    padding-top: 0;
-    margin-left: 18.5rem;
+    width: 1px;
+    margin-left: 296px;
+    
 }
