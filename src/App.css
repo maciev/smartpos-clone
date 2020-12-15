@@ -5,11 +5,29 @@
     font-family: PublicaSans-Light;
   }
   
-  html, body, .App {
-    position: relative;
-    display: flex;
-    height: 100vh;
-    width: 100%;
-    overflow: hidden;
-    position: fixed;
-  }
+.App {
+display: grid;
+position: relative;
+width: 100%;
+height: 100vh;
+grid-template-columns: 260px auto ;
+grid-template-rows: 110px auto;
+overflow: hidden;
+}
+
+.Sidebar {
+  display: grid;
+  grid-column: 1;
+  grid-row: 1 / 2;
+}
+
+.Header {
+  display: grid;
+  grid-column: 2;
+  grid-row: 1;
+}
+.Mainbody {
+  display: grid;
+  grid-column: 2;
+  grid-row: 2;
+}

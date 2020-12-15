@@ -47,7 +47,6 @@ function Sidebar() {
         <span>Waiter • 4h 56m </span>
         <button>Open profile</button>
       </div>
-      <div className="hr"></div>
     </div>
   );
 }
